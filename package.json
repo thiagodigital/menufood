@@ -15,11 +15,7 @@
         "@inertiajs/inertia-react": "^0.7.0",
         "@types/react": "^17.0.14",
         "axios": "^0.21",
-        "bootstrap": "^4.6.0",
-        "jquery": "^3.6",
         "laravel-mix": "^6.0.6",
-        "lodash": "^4.17.19",
-        "popper.js": "^1.16.1",
         "postcss": "^8.1.14",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
@@ -27,6 +23,8 @@
         "sass": "^1.32.11",
         "sass-loader": "^11.0.1",
         "ts-loader": "^9.2.3",
-        "typescript": "^4.3.5"
+        "typescript": "^4.3.5",
+        "react-feather": "^2.0.9",
+        "uikit": "^3.7.1"
     }
 }

@@ -1,8 +1,7 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
-// Variables
-@import 'variables';
-
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+@import "variables";
+@import "~uikit/src/scss/variables-theme.scss";
+@import "~uikit/src/scss/mixins-theme.scss";
+@import "mixins";
+@import "~uikit/src/scss/uikit-theme.scss";
+@import "theme";

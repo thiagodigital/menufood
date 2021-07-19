@@ -1,0 +1,9 @@
+.uk-background-dark {
+    background: lighten($global-primary-background, 10%);
+}
+.count-item {
+    color: #fff !important;
+    background-color: $global-primary-background !important;
+    margin-left: -10px;
+    margin-top: -20px;
+}

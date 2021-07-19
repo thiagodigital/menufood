@@ -17,6 +17,10 @@ import { InertiaApp } from '@inertiajs/inertia-react'
 import React from 'react'
 import { render } from 'react-dom'
 
+import Uikit from "uikit";
+Uikit.grid();
+Uikit.cover();
+
 const app = document.getElementById('app')
 
 render(

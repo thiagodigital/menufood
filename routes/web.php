@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Inertia\Inertia;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,13 +13,7 @@ use Inertia\Inertia;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/hometest', function () {
-    return Inertia::render('Home');
-});
+Route::get('/', [App\Http\Controllers\DishController::class, 'index'])->name('index');
 
 Auth::routes();
 

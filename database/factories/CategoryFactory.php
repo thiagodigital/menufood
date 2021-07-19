@@ -21,6 +21,10 @@ class CategoryFactory extends Factory
      */
     public function definition()
     {
+        $categories = ['meat', 'chicken', 'vegan'];
+        foreach ($categories as $category) {
+            Category::create(['name' => $category]);
+        }
         return [
             //
         ];

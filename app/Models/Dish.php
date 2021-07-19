@@ -8,4 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Dish extends Model
 {
     use HasFactory;
+    protected $fillable = [
+        'name',
+        'img',
+        'sale',
+        'price',
+        'description',
+        'category_id'
+    ];
 }

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Dish;
 use Illuminate\Http\Request;
+use Inertia\Inertia;
 
 class DishController extends Controller
 {
@@ -14,7 +15,8 @@ class DishController extends Controller
      */
     public function index()
     {
-        //
+        $data = Dish::with('category')->get();
+        return Inertia::render('Home', compact('data'));
     }
 
     /**
